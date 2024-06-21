@@ -6,8 +6,10 @@
         "noEmit": true,
         "forceConsistentCasingInFileNames": true,
         "skipLibCheck": true,
-        "baseUrl": "../",
-        "typeRoots": ["../"]
+        "baseUrl": ".",
+        "paths": {
+            "*": ["src/*"]
+        }
     },
-    "include": ["index.d.ts"]
+    "include": ["src/**/*"]
 }
